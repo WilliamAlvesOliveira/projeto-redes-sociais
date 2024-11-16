@@ -25,7 +25,6 @@ p{
 
 main{
     display: flex;
-    height: 90%;
 }
 
 #telefone{
@@ -36,6 +35,8 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     width: 80vw;
+    min-width: 311px;
+    height: 627px;
 }
 
 #tela{
