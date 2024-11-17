@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -25,6 +26,10 @@ p{
 
 main{
     display: flex;
+}
+
+a{
+    color: white;
 }
 
 #telefone{
@@ -74,12 +79,14 @@ main{
     p{
         padding-top: 3px;
         width: 100%;
+        font-size: 14px;
     }
 
     main{
         height: auto;
         flex-direction: column;
         align-items: center;
+        gap: 3px;    
     }
 
     #telefone{
